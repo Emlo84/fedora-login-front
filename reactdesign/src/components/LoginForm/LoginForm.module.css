@@ -1,0 +1,27 @@
+.button {
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+}
+
+.input__error {
+    color: #df2222;
+}

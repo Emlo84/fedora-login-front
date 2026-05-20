@@ -1,0 +1,15 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+}
+
+.layout__form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__banner {
+    background-color: var(--color-primary);
+}

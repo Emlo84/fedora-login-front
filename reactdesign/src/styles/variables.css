@@ -1,0 +1,31 @@
+:root {
+    --color-primary:#CA2355;
+    --color-success:#6ebE23;
+    --color-info:#018198;
+
+    --font-family:'Arial', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: var(--font-family);
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input {
+    outline: none;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    border: 1px solid #d4d4d4;
+    padding: 6px 5px;
+}
